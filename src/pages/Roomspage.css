@@ -1,0 +1,53 @@
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    display: grid;
+  }
+  
+  .heading {
+    font-size: 24px;
+    margin-bottom: 20px;
+    position: static;
+  }
+  
+  .filter-container {
+    margin-bottom: 20px;
+  }
+  
+  .room-list {
+    display: grid;
+    gap: 20px;
+  }
+  
+  .room-row {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 20px;
+  }
+  
+  .room-item {
+    background-color: #f2f2f2;
+    border-radius: 5px;
+    padding: 15px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .book-button {
+    border: none;
+    border-radius: 5px;
+    padding: 8px 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .book-button-available {
+    background-color: #28a745;
+    color: #fff;
+  }
+  
+  .book-button-unavailable {
+    background-color: #dc3545;
+    color: #fff;
+  }
+  

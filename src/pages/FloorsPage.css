@@ -1,0 +1,50 @@
+/* Floors.css */
+.heading {
+  position: absolute;
+  top: 60px;
+  width: 100%;
+  text-align: center;
+  
+}
+.building {
+  background-image: url(../../public/desert.jpg) ;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  background-color: #352121;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 20px;
+  height: 100vh; /* Full height of the viewport */
+}
+
+.floor {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #000;
+  box-sizing: border-box;
+  padding: 10px;
+  margin: 5px;
+  width: 200px; /* Adjust as needed */
+  height: 180px; /* Adjust as needed */
+  background-color: #f0f0f0; /* Light gray background */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15); /* Shadow for a "lifted" effect */
+  transition: all 0.3s ease; /* Smooth transition for hover effects */
+}
+
+.floor:hover {
+  background-color: #e0e0e0; /* Slightly darker background when hovered */
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3); /* Larger shadow when hovered */
+}
+
+.floors-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
